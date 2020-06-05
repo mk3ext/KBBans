@@ -1,0 +1,22 @@
+# KBBans config.yml generated - version 1.0-SNAPSHOT
+# Author: kbsharp324
+
+message:
+  prefix: "&cKBBans &8»&7 "
+
+notify:
+  # If enabled, players with the permission 'kb.notify.banned_player_join' will be notified when a banned player tries to join.
+  banned_player_join: true
+  # If enabled, players with permission 'kb.notify.unban' will be notified when someone is unbanned using /unban
+  notify_unban: true
+  # Log all notifications to the console?
+  notify_console: true
+
+#
+# If URI is blank, will create a uri
+#
+mongo:
+  uri: "mongodb+srv://admin:admin123@kb-zisxb.azure.mongodb.net/kbbans"
+  user: ""
+  password: ""
+  database: ""

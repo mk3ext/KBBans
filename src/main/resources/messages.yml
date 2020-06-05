@@ -1,0 +1,25 @@
+
+ban:
+  banned_message: |
+    &cYou are banned from this server!&f
+
+    &7Reason&8: &c{reason}
+    &7Expires&8: &c{durationLeft}
+    &7Banned by&8: &c{executor}&f
+  banned_player_join: "&c{username} &7has tried to join, but is banned"
+  #this will only broadcast to those with the permission 'kb.notify.unban'
+  player_unbanned: "&c{executor} &7has unbanned &c{target}"
+  #will be publicly broadcasted to all, negate 'kb.notify.ban' to remove
+  player_banned: "&c{executor} &7has banned &c{target} &7for &c{reason}"
+
+kick:
+  message: |
+    &cYou have been kicked from the server
+
+    &7Reason&8: &c{reason}
+    &7Kicked by&8: &c{executor}&f
+  player_kick: "&c{executor} &7 has kicked &c{target} &7for &c{reason}"
+
+mute:
+  try_to_talk: "&7You are muted for &c{durationLeft}"
+  player_muted: "&c{executor} &7has muted &c{target} &7for &c{reason}"

@@ -1,0 +1,33 @@
+name: KBBans
+version: ${project.version}
+main: io.github.wert.kbbans.KBBans
+api-version: 1.13
+authors: [kbsharp324]
+commands:
+  kban:
+    description: ban
+  kunban:
+    description: unban
+  kkick:
+    description: kick
+  kmute:
+    description: mute
+permissions:
+  kb.ban:
+    default: op
+  kb.unban:
+    default: op
+  kb.kick:
+    default: op
+  kb.mute:
+    default: op
+  kb.notify.banned_join:
+    default: op
+  kb.notify.unban:
+    default: true
+  kb.notify.ban:
+    default: true
+  kb.notify.kick:
+    default: true
+  kb.notify.mute:
+    default: true
